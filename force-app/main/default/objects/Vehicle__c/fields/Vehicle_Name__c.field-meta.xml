@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Name__c</fullName>
+    <label>Vehicle Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tata Nexon</fullName>
+                <default>false</default>
+                <label>Tata Nexon</label>
+            </value>
+            <value>
+                <fullName>Mahindra XUV700</fullName>
+                <default>false</default>
+                <label>Mahindra XUV700</label>
+            </value>
+            <value>
+                <fullName>Hyundai Creta</fullName>
+                <default>false</default>
+                <label>Hyundai Creta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
